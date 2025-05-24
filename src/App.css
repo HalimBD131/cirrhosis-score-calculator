@@ -15,7 +15,7 @@ body {
 
 .title {
   font-size: 35px;
-  font-weight: bold;
+  font-weight: bolder;
   color: #00638d;
 }
 
@@ -80,10 +80,12 @@ footer {
   gap: 70px;
 }
 .footer-title-main {
-  font-size: 30px; /* Adjust to your desired size for the main title */
+  font-size: 50px; /* Adjust to your desired size for the main title */
   font-weight: bold; /* Example: make it bold */
+  text-align: left;
+  line-height: 1;
   color: white; /* Example color */
-  margin-bottom: 4px; /* Adds a small space below this title */
+  margin-bottom: 6px; /* Adds a small space below this title */
   margin-top: 0; /* Removes default top margin from <p> if needed */
 }
 
@@ -91,6 +93,7 @@ footer {
   font-size: 19px; /* Adjust to your desired size for the subtitle */
   color: white; /* Example color */
   font-weight: thin;
+  text-align: left;
   margin-top: 0; /* Removes default top margin from <p> */
   margin-bottom: 0; /* Removes default bottom margin from <p> if needed */
 }
