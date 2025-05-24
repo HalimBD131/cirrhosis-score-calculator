@@ -76,7 +76,7 @@ function Calculator() {
           Digestive Disease <br /> Research Center <br />
           at the Medical University of South Carolina
         </div>
-        <img src="/logo.png" alt="Digestive Disease Research Center Logo" className="h-12" />
+        <img src={process.env.PUBLIC_URL + '/logo.png'} alt="Digestive Disease Research Center Logo" className="h-12" />
       </footer>
     </div>
   );
