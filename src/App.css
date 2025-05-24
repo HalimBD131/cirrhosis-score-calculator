@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #00638d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.subtitle {
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+label {
+  width: 70%;
+  font-size: 18px;
+}
+
+.note {
+  font-style: italic;
+  font-size: 14px;
+  color: gray;
+}
+
+input[type="number"] {
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+.citation {
+  font-style: italic;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #1e659b;
   color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  gap: 70px;
+}
+.footer-title-main {
+  font-size: 30px; /* Adjust to your desired size for the main title */
+  font-weight: bold; /* Example: make it bold */
+  color: white; /* Example color */
+  margin-bottom: 4px; /* Adds a small space below this title */
+  margin-top: 0; /* Removes default top margin from <p> if needed */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-title-sub {
+  font-size: 19px; /* Adjust to your desired size for the subtitle */
+  color: white; /* Example color */
+  font-weight: thin;
+  margin-top: 0; /* Removes default top margin from <p> */
+  margin-bottom: 0; /* Removes default bottom margin from <p> if needed */
+}
+
+.footer-banner img {
+  height: 200px;
 }
