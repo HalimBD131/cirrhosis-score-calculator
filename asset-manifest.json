@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/cirrhosis-score-calculator/static/css/main.e6c13ad2.css",
-    "main.js": "/cirrhosis-score-calculator/static/js/main.d04b80f7.js",
+    "main.css": "/cirrhosis-score-calculator/static/css/main.0442b8c3.css",
+    "main.js": "/cirrhosis-score-calculator/static/js/main.c4abf805.js",
     "static/js/453.c54bf6fe.chunk.js": "/cirrhosis-score-calculator/static/js/453.c54bf6fe.chunk.js",
+    "static/media/logo.png": "/cirrhosis-score-calculator/static/media/logo.1b323f3fe2669f8a1c77.png",
     "index.html": "/cirrhosis-score-calculator/index.html",
-    "main.e6c13ad2.css.map": "/cirrhosis-score-calculator/static/css/main.e6c13ad2.css.map",
-    "main.d04b80f7.js.map": "/cirrhosis-score-calculator/static/js/main.d04b80f7.js.map",
+    "main.0442b8c3.css.map": "/cirrhosis-score-calculator/static/css/main.0442b8c3.css.map",
+    "main.c4abf805.js.map": "/cirrhosis-score-calculator/static/js/main.c4abf805.js.map",
     "453.c54bf6fe.chunk.js.map": "/cirrhosis-score-calculator/static/js/453.c54bf6fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.d04b80f7.js"
+    "static/css/main.0442b8c3.css",
+    "static/js/main.c4abf805.js"
   ]
 }
